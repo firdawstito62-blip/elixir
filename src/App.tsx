@@ -5,6 +5,7 @@ import { DiscoveryView } from './components/DiscoveryView';
 import { CompatibilityQuizView } from './components/CompatibilityQuizView';
 import { ChatView } from './components/ChatView';
 import { DateConciergeView } from './components/DateConciergeView';
+import { SponsoredBanner } from './components/SponsoredBanner';
 import { ProfileDrawer } from './components/ProfileDrawer';
 import { AgeGateModal } from './components/AgeGateModal';
 import { INITIAL_PROFILES, DATE_IDEAS, INITIAL_MESSAGES } from './data/mockData';
@@ -154,6 +155,7 @@ export default function App() {
               }}
             />
             <div id="discovery-section">
+              <SponsoredBanner />
               <DiscoveryView
                 profiles={profiles}
                 onLikeProfile={handleLikeProfile}
