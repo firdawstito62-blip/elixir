@@ -1,0 +1,6 @@
+{
+  "name": "Élixir - Rencontres & Affinités",
+  "description": "Plateforme moderne de rencontres et de mise en relation authentique pour adultes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
